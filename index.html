@@ -4,6 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="src/output.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Navbaar -->
+    <nav class="p-3 bg-white flex justify-between items-center">
+      <a href="#" id="brand" class="flex items-center gap-2">
+        <img
+          class="object-cover max-w-12 max-h-12"
+          src="images/asset 0.png"
+          alt=""
+        />
+        <span class="text-lg font-medium font-sans">ToDesktop</span>
+      </a>
+
+      <div id="nav-menu" class="hidden lg:flex gap-12">
+        <a href="#" class="font-medium hover:text-[#3238f2]">Pricing</a>
+        <a href="#" class="font-medium hover:text-[#3238f2]">Docks</a>
+        <a href="#" class="font-medium hover:text-[#3238f2]">Changing</a>
+        <a href="#" class="font-medium hover:text-[#3238f2]">Blogs</a>
+        <a href="#" class="font-medium hover:text-[#3238f2]">Login</a>
+      </div>
+
+      <button
+        class="hidden lg:flex justify-center items-center gap-2 border border-gray-500 px-6 py-2 rounded-lg hover:border-gray-800"
+      >
+        <img src="images/asset 1.svg" alt="" />
+        <span> Electron Developers</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <button class="p-2 lg:hidden" onclick="handleMenu()">
+        <i class="fa-solid fa-bars text-gray-600"></i>
+      </button>
+
+      <div id="nav-dialog" class="hidden z-10 md:hidden fixed bg-white inset-0">
+        <div id="nav-bar" class="flex justify-between p-3">
+          <a href="#" id="brand" class="flex items-center gap-2">
+            <img
+              class="object-cover max-w-12 max-h-12"
+              src="images/asset 0.png"
+              alt=""
+            />
+            <span class="text-lg font-medium font-sans">ToDesktop</span>
+          </a>
+          <button class="p-2 md:hidden" onclick="handleMenu()">
+            <i class="fa-solid fa-xmark text-gray-600"></i>
+          </button>
+        </div>
+
+        <div class="mt-6">
+          <a
+            href="#"
+            class="font-medium p-3 m-3 hover:bg-gray-50 block rounded-xl"
+            >Pricing</a
+          >
+          <a
+            href="#"
+            class="font-medium p-3 m-3 hover:bg-gray-50 block rounded-xl"
+            >Docks</a
+          >
+          <a
+            href="#"
+            class="font-medium p-3 m-3 hover:bg-gray-50 block rounded-xl"
+            >Changing</a
+          >
+
+          <a
+            href="#"
+            class="font-medium p-3 m-3 hover:bg-gray-50 block rounded-xl"
+            >Bloks</a
+          >
+
+          <a
+            href="#"
+            class="font-medium p-3 m-3 hover:bg-gray-50 block rounded-xl"
+            >Login</a
+          >
+        </div>
+
+        <div class="h-[1px] bg-gray-100"></div>
+        <button
+          class="mt-4 mx-2 w-full flex justify-start items-center gap-2 px-6 py-4 rounded-lg hover:bg-gray-50"
+        >
+          <img src="images/asset 1.svg" alt="" />
+          <span> Electron Developers</span>
+        </button>
+      </div>
+    </nav>
+  </body>
+  <script src="script.js"></script>
 </html>
