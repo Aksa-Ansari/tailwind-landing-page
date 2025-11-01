@@ -33,11 +33,11 @@ tailwind-landing-page/
 └── README.md
 
 ## How to Run Locally
-1.Clone this repository:
+1. Clone this repository:
 git clone https://github.com/Aksa-Ansari/tailwind-landing-page.git
 cd tailwind-landing-page
-2.Run Tailwind in watch mode:
-3.Open index.html in your browser to view the project.
+2. Run Tailwind in watch mode:
+3. Open index.html in your browser to view the project.
 
 ## Live Demo
 You can view the live version of the project here:
