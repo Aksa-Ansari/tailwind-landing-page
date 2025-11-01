@@ -21,7 +21,7 @@ This project showcases a clean UI and smooth interactivity including mobile menu
    ```bash
    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
-## Folder Structure
+ Folder Structure
 tailwind-landing-page/
 │
 ├── index.html
