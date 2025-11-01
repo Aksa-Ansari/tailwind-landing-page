@@ -21,17 +21,6 @@ This project showcases a clean UI and smooth interactivity including mobile menu
    ```bash
    npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
 
- Folder Structure
-tailwind-landing-page/
-│
-├── index.html
-├── src/
-│   ├── input.css 
-│   └── output.css
-├── script.js
-├── images/
-└── README.md
-
 ## How to Run Locally
 1. Clone this repository:
 git clone https://github.com/Aksa-Ansari/tailwind-landing-page.git
